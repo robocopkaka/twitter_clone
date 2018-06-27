@@ -11,6 +11,10 @@ gem 'rails', '~> 5.0.7'
 gem 'bcrypt', '3.1.12'
 # bootstrap
 gem 'bootstrap-sass', '3.3.7'
+# bootstrap pagination
+gem 'bootstrap-will_paginate', '1.0.0'
+# faker gem
+gem 'faker', '1.7.3'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -28,6 +32,8 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
+# will_paginate gem
+gem 'will_paginate', '3.1.6'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
