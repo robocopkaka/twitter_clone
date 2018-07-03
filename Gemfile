@@ -9,12 +9,16 @@ end
 gem 'rails', '~> 5.0.7'
 # bcrypt
 gem 'bcrypt', '3.1.12'
+# carrierwave gem
+gem 'carrierwave', '1.2.2'
 # bootstrap
 gem 'bootstrap-sass', '3.3.7'
 # bootstrap pagination
 gem 'bootstrap-will_paginate', '1.0.0'
 # faker gem
 gem 'faker', '1.7.3'
+# minimagick
+gem 'mini_magick', '4.7.0'
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
@@ -67,6 +71,7 @@ group :test do
 end
 
 group :production do
+  gem 'fog', '1.42'
   gem 'pg', '0.18.4'
 end
 

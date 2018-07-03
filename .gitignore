@@ -23,3 +23,6 @@
 # Ignore Spring
 spring/*.pid
 .DS_Store
+
+# image uploads 
+/public/uploads
